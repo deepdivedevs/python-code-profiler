@@ -34,7 +34,7 @@ for i in range(N):
 ```
 ### Features
 
-** Print Statistics **
+**Print Statistics**
 Print the stats of the functions after they are ran.
 
 `Profiler.print_stats(sort_by='total_time', reverse=True, filter_function=None, top_n=None)`
@@ -51,14 +51,14 @@ Function             Calls      Total Time      Avg Time        Total Memory    
 is_prime             10000      0.045105s      0.000005s      7,194 bytes      1 bytes
 ```
 
-** Visualize Statistics **
+**Visualize Statistics**
 Visualize the statistics with `matplotlib`
 
 `Profiler.visualize(metric='total_time', top_n=10)`
 - `metric`: Metric to visualize on the graph
 - `top_n`: Only display `top_n` functions
 
-** Export as CSV **
+**Export as CSV**
 Export the statistics as a CSV
 
 `Profiler.export(filename)`

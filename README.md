@@ -35,6 +35,7 @@ for i in range(N):
 ### Features
 
 **Print Statistics**
+<br>
 `Profiler.print_stats(sort_by='total_time', reverse=True, filter_function=None, top_n=None)`
  - `sort_by`: Sort metrics by a specific metric
  - `reverse`: Reverse order of sorting
@@ -50,13 +51,13 @@ is_prime             10000      0.045105s      0.000005s      7,194 bytes      1
 ```
 
 **Visualize Statistics**
-
+<br>
 `Profiler.visualize(metric='total_time', top_n=10)`
 - `metric`: Metric to visualize on the graph
 - `top_n`: Only display `top_n` functions
 
 **Export as CSV**
-
+<br>
 `Profiler.export(filename)`
 - `filename`: Filename to write out to (default is: `Y-m-d H:M:S-profile.csv`)
   
